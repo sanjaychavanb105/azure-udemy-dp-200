@@ -3,10 +3,13 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Var1",
-				"type": "SetVariable",
+				"name": "Wait1",
+				"type": "Wait",
 				"dependsOn": [],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
 			}
 		],
 		"annotations": []
